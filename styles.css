@@ -1,16 +1,19 @@
-@media screen {
 
+
+@media screen {
     body {
         margin: 0; /* Remove default body margin */
+        overflow-x: hidden; /* Hide horizontal overflow */
     }
 
     header {
         display: flex; /* Add flexbox layout */
         align-items: center; /* Align items vertically */
         background-color: #6B3CC9;
-        width: fixed;
+        max-width: 2560px; /* Set max-width to fit within 1440px */
         height: 77px;
         padding: 0 80px; /* Adjust padding */
+        margin: 0 auto; /* Center the header horizontally */
     }
 
     .head img {
@@ -38,21 +41,28 @@
         margin-left: 20px; /* Adjust spacing between list items */
     }
     
+    .navbar li:first-child {
+        margin-left: 0; /* Remove margin from the first list item */
+    }
 
-    
     .navbar li a {
         text-decoration: none;
         color: #fff;
     }
-    
+
+    .headimg img {
+        width: 2560px;
+    }
 }
 
 
 
 
 
-
 @media (max-width: 1440px){
+    .headimg img {
+        width: 1440px;
+    }
 
 }
 
