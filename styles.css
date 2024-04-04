@@ -51,8 +51,51 @@
     }
 
     .headimg img {
-        width: 2560px;
+        width: 1440px;
     }
+
+    .overlay {
+        width: 630px; /* Fixed width */
+        height: 306px; /* Hugs its content */
+        position: absolute;
+        top: 354px;
+        left: 80px;
+        padding: 24px 40px 32px 40px;
+
+    
+        /* Gradient background */
+        background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%); /* Custom gradient */
+    }
+
+    .overlay p {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 48px; /* Adjust the line height to match font-size */
+        text-align: left; /* Align text to the left */
+        margin-top: 10px;
+    }
+
+    .overlay button {
+        width: 214px; /* Hugs its content */
+        height: 38px; /* Hugs its content */
+        padding: 12px; /* Adjust padding */
+        border-radius: 4px 4px 4px 4px; /* Adjust border-radius */
+        background: #F28D35; /* Background color */
+        border: none; /* Remove border */
+        color: white; /* Text color */
+        font-family: "Inter", sans-serif; /* Font family */
+        font-size: 14px; /* Font size */
+        font-weight: 700; /* Font weight */
+        cursor: pointer; /* Cursor style */
+    }
+
+    .overlay button:hover {
+        background-color: #E67925;
+    }
+    
+
 }
 
 
