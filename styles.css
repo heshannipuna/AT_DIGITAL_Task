@@ -1,0 +1,69 @@
+@media screen {
+
+    body {
+        margin: 0; /* Remove default body margin */
+    }
+
+    header {
+        display: flex; /* Add flexbox layout */
+        align-items: center; /* Align items vertically */
+        background-color: #6B3CC9;
+        width: fixed;
+        height: 77px;
+        padding: 0 80px; /* Adjust padding */
+    }
+
+    .head img {
+        width: 238.89px; /* Adjust the width of the logo */
+        height: auto;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: flex-end; /* Align items to the right */
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        margin-left: auto; /* Push the navbar to the right */
+        font-weight: 500;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Make the navbar items flex */
+    }
+    
+    .navbar li {
+        margin-left: 20px; /* Adjust spacing between list items */
+    }
+    
+
+    
+    .navbar li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width: 1440px){
+
+}
+
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 375px){
+
+}
